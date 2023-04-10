@@ -1,0 +1,36 @@
+
+*{
+  margin-left: 20px;  
+}
+
+header{
+    height: 100px;
+    background-color:none;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    text-align: left;
+}
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.content-left{
+    width: 25%;
+    margin: 0 20px;
+    text-align: left;
+    text-align-last: left;
+}
+
+
+.content-righ{
+    width: 25%;
+    margin: 0 20px;
+    text-align: right;
+}
